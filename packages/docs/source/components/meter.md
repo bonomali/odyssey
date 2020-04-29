@@ -26,6 +26,7 @@
                 <li>To represent a value whose minimum and maximum values are unknown.</li>
             </ul>
         </td>
+      </tr>
     </tbody>
 </table>
 

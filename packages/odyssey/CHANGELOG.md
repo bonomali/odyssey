@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 - Rebrand type and color changes
+- [Breaking Change] Removed documentation and Sass styles for unapproved components: Banner, Callout, Card, Dropdown, Meter, Navigation, Switch, Toast, Top Bar
+- Removed all other unused/unapproved documentation
+
+## [0.2.0] - 2020-04-30
+
+### Added
+- Status: New component and documentation
+- Tab: New component and documentation
+- Tag: New component and documentation
+
+### Changed
+- [Breaking Change] Rename `yellow` color variable to `caution`
+- All focus outline instances now use new outline mixin
+- Adds Status content type to Table component
+- [Docs] Fix misspelling in Form documentation
+- [Docs] Rename "Foundation" to "Base" in nav
 
 ## [0.1.3] - 2020-04-10
 
@@ -29,7 +45,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- [Docs] Heading casing changed to sentence throughout docs 
+- [Docs] Heading casing changed to sentence throughout docs
 
 ## [0.1.1] - 2020-04-01
 
@@ -43,7 +59,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- <mark><strong>[Breaking Change]</strong></mark> All classes are now prefixed with `.ods-`
+- [Breaking Change] All classes are now prefixed with `.ods-`
 - Standard borders are now set to 1px (from 2px)
 - Input and Button now share the same height math
 
